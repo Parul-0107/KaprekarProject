@@ -22,6 +22,10 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number,
  * <code>false</code> otherwise.
  */
+
+ int numberOfDigits;
+ long modulous;
+ 
 int isKaprekar(int n) {
 
   if(n < 1) {
